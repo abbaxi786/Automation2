@@ -45,6 +45,7 @@ while True:
         if(len(newFiles)==0):print("Not new files")
         else:
             print(f"New Files add:  {newFiles}")
+            log.AdditionLog(f"New Files add:  {newFiles}")
                 
     
     choice = input(
